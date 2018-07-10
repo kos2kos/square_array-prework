@@ -6,3 +6,7 @@ def square_array(array)
   end
   return temp
 end
+
+basket.each do |apple|
+    puts "Taking out #{apple}"
+end
