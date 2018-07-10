@@ -3,5 +3,6 @@ def square_array(array)
   temp = array
   temp.each do |numbers|
     numbers = numbers * numbers
+  end
   return temp
 end
